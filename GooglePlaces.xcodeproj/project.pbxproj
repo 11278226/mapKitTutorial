@@ -15,6 +15,9 @@
 		7E76BAB3159A61970020A508 /* MapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E76BAB2159A61970020A508 /* MapAppDelegate.m */; };
 		7E76BAB6159A61970020A508 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E76BAB4159A61970020A508 /* MainStoryboard.storyboard */; };
 		7E76BAB9159A61970020A508 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E76BAB8159A61970020A508 /* MapViewController.m */; };
+		7E76BAC0159A62D40020A508 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E76BABF159A62D40020A508 /* MapKit.framework */; };
+		7E76BAC2159A62E70020A508 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E76BAC1159A62E70020A508 /* CoreLocation.framework */; };
+		7E76BAC5159A6E990020A508 /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E76BAC4159A6E990020A508 /* MapPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,19 @@
 		7E76BAA2159A61970020A508 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7E76BAA4159A61970020A508 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7E76BAA6159A61970020A508 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7E76BAAA159A61970020A508 /* GooglePlaces-Info.plist */ = {isa = PBXFileReference; path = "GooglePlaces-Info.plist"; sourceTree = "<group>"; };
+		7E76BAAA159A61970020A508 /* GooglePlaces-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GooglePlaces-Info.plist"; sourceTree = "<group>"; };
 		7E76BAAC159A61970020A508 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E76BAAE159A61970020A508 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7E76BAB0159A61970020A508 /* GooglePlaces-Prefix.pch */ = {isa = PBXFileReference; path = "GooglePlaces-Prefix.pch"; sourceTree = "<group>"; };
-		7E76BAB1159A61970020A508 /* MapAppDelegate.h */ = {isa = PBXFileReference; path = MapAppDelegate.h; sourceTree = "<group>"; };
+		7E76BAB0159A61970020A508 /* GooglePlaces-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GooglePlaces-Prefix.pch"; sourceTree = "<group>"; };
+		7E76BAB1159A61970020A508 /* MapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapAppDelegate.h; sourceTree = "<group>"; };
 		7E76BAB2159A61970020A508 /* MapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapAppDelegate.m; sourceTree = "<group>"; };
 		7E76BAB5159A61970020A508 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7E76BAB7159A61970020A508 /* MapViewController.h */ = {isa = PBXFileReference; path = MapViewController.h; sourceTree = "<group>"; };
+		7E76BAB7159A61970020A508 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		7E76BAB8159A61970020A508 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		7E76BABF159A62D40020A508 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7E76BAC1159A62E70020A508 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7E76BAC3159A6E990020A508 /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
+		7E76BAC4159A6E990020A508 /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E76BAC2159A62E70020A508 /* CoreLocation.framework in Frameworks */,
+				7E76BAC0159A62D40020A508 /* MapKit.framework in Frameworks */,
 				7E76BAA3159A61970020A508 /* UIKit.framework in Frameworks */,
 				7E76BAA5159A61970020A508 /* Foundation.framework in Frameworks */,
 				7E76BAA7159A61970020A508 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +59,8 @@
 		7E76BA93159A61960020A508 = {
 			isa = PBXGroup;
 			children = (
+				7E76BAC1159A62E70020A508 /* CoreLocation.framework */,
+				7E76BABF159A62D40020A508 /* MapKit.framework */,
 				7E76BAA8159A61970020A508 /* GooglePlaces */,
 				7E76BAA1159A61970020A508 /* Frameworks */,
 				7E76BA9F159A61970020A508 /* Products */,
@@ -82,6 +93,8 @@
 				7E76BAB4159A61970020A508 /* MainStoryboard.storyboard */,
 				7E76BAB7159A61970020A508 /* MapViewController.h */,
 				7E76BAB8159A61970020A508 /* MapViewController.m */,
+				7E76BAC3159A6E990020A508 /* MapPoint.h */,
+				7E76BAC4159A6E990020A508 /* MapPoint.m */,
 				7E76BAA9159A61970020A508 /* Supporting Files */,
 			);
 			path = GooglePlaces;
@@ -165,6 +178,7 @@
 				7E76BAAF159A61970020A508 /* main.m in Sources */,
 				7E76BAB3159A61970020A508 /* MapAppDelegate.m in Sources */,
 				7E76BAB9159A61970020A508 /* MapViewController.m in Sources */,
+				7E76BAC5159A6E990020A508 /* MapPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
